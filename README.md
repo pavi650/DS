@@ -862,25 +862,12 @@ Student ARUN got maximum marks = 98 in Subject : 1
 Student ARUN got maximum marks = 67 in Subject : 2 
 ARUN obtained the total highest marks.
 
-=========content beyond the syllabus==========
+==============content beyond the sylabus ===============
+------------------cbs-1------------------------------
+postfix evaluation: -4
 
-Experiment 1 – Postfix Expression Evaluation: 
-
-Output:
-
-Postfix expression: 231*+9-
-Postfix evaluation: -4
-Working:
-2 + (3 * 1) - 9
-= 2 + 3 - 9
-= 5 - 9
-= -4
-
-==========Experiment 2 – Producer Consumer Problem:==========
-
-Output:
-
-1. producer
+-------------------cbs-2--------------------------------
+1. Producer
 2. Consumer
 3. Display
 4. Exit
@@ -895,9 +882,8 @@ Enter the piece of data: 5
 1. Producer
 2. Consumer
 3. Display
-4. Exit
-Enter your choice: 3
-The data are:
+4. ExitEnter your choice: 3
+The data are
 3
 5
 1. Producer
@@ -905,13 +891,13 @@ The data are:
 3. Display
 4. Exit
 Enter your choice: 2
-The consumed data is = 3
+The consumed data is=3
 1. Producer
 2. Consumer
 3. Display
 4. Exit
 Enter your choice: 3
-The data are:
+The data are
 5
 1. Producer
 2. Consumer
@@ -919,3 +905,56 @@ The data are:
 4. Exit
 Enter your choice: 4
 Exit
+=============== Mini Project =============
+------------Railway_Reservation_System---------
+
+   --- RAILWAY RESERVATION SYSTEM ---
+1.Book Ticket  2.Display  3.Search
+4.Cancel Ticket  5.Exit
+Enter your choice: 1
+Enter Passenger Name: Arun Kumar
+Enter Age: 21
+Enter Train Number: 12635
+Enter From: Chennai
+Enter To: Madurai
+Ticket booked! PNR: 1001, Seat No: 1
+--- RAILWAY RESERVATION SYSTEM ---
+1.Book Ticket  2.Display  3.Search
+4.Cancel Ticket  5.Exit
+Enter your choice: 1
+Enter Passenger Name: Priya S
+Enter Age: 19
+Enter Train Number: 12635
+Enter From: Chennai
+Enter To: Trichy
+Ticket booked! PNR: 1002, Seat No: 2
+--- RAILWAY RESERVATION SYSTEM ---
+1.Book Ticket  2.Display  3.Search
+4.Cancel Ticket  5.Exit
+Enter your choice: 2
+PNR    Name           Age  Train  From       To         Seat
+1001   Arun Kumar     21   12635  Chennai    Madurai    1
+1002   Priya S        19   12635  Chennai    Trichy     2
+--- RAILWAY RESERVATION SYSTEM ---
+1.Book Ticket  2.Display  3.Search
+4.Cancel Ticket  5.Exit
+Enter your choice: 3
+Enter PNR to search: 1002
+Found: Priya S, Train 12635, Chennai to Trichy, Seat 2
+--- RAILWAY RESERVATION SYSTEM ---
+1.Book Ticket  2.Display  3.Search
+4.Cancel Ticket  5.Exit
+Enter your choice: 4
+Enter PNR to cancel: 1001
+Ticket cancelled successfully!
+--- RAILWAY RESERVATION SYSTEM ---
+1.Book Ticket  2.Display  3.Search
+4.Cancel Ticket  5.Exit
+Enter your choice: 2
+PNR    Name           Age  Train  From       To         Seat
+1002   Priya S        19   12635  Chennai    Trichy     2
+--- RAILWAY RESERVATION SYSTEM ---
+1.Book Ticket  2.Display  3.Search
+4.Cancel Ticket  5.Exit
+Enter your choice: 5
+Thank you!
