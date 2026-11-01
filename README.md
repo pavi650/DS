@@ -861,3 +861,54 @@ Student ARUN got maximum marks = 78 in Subject : 0
 Student ARUN got maximum marks = 98 in Subject : 1 
 Student ARUN got maximum marks = 67 in Subject : 2 
 ARUN obtained the total highest marks.
+=========content beyond the syllabus==========
+Experiment 1 – Postfix Expression Evaluation: 
+Output:
+Postfix expression: 231*+9-
+Postfix evaluation: -4
+Working:
+2 + (3 * 1) - 9
+= 2 + 3 - 9
+= 5 - 9
+= -4
+==========Experiment 2 – Producer Consumer Problem:==========
+Output:
+1. producer
+2. Consumer
+3. Display
+4. Exit
+Enter your choice: 1
+Enter the piece of data: 3
+1. Producer
+2. Consumer
+3. Display
+4. Exit
+Enter your choice: 1
+Enter the piece of data: 5
+1. Producer
+2. Consumer
+3. Display
+4. Exit
+Enter your choice: 3
+The data are:
+3
+5
+1. Producer
+2. Consumer
+3. Display
+4. Exit
+Enter your choice: 2
+The consumed data is = 3
+1. Producer
+2. Consumer
+3. Display
+4. Exit
+Enter your choice: 3
+The data are:
+5
+1. Producer
+2. Consumer
+3. Display
+4. Exit
+Enter your choice: 4
+Exit
